@@ -36,3 +36,18 @@ body {
     gap: 5px;
 }
 
+.gridButton {
+    padding: 10px;
+    background-color: yellow;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: 900;
+}
+
+.resetButton {
+    padding: 10px;
+    background-color: yellow;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: 900;
+}

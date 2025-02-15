@@ -23,9 +23,7 @@ function createSquare(box){
 }
 createSquare(16);
 
-
 gridButton.addEventListener("click", () => {
-    
     let newGrid = prompt ("choose grid", "number");
     if (newGrid < 100){
         container.innerHTML = "";
@@ -41,13 +39,7 @@ gridButton.addEventListener("click", () => {
     else {
         alert("Add a number between 1 and 100.")
     }
-
-
 })
-
-
-
-
 
 function addColor(){
 const squares = document.querySelectorAll(".content");
@@ -60,8 +52,7 @@ squares.forEach(square => {
     })
 })
 }
-
-addColor();
+    addColor();
 
 resetButton.addEventListener("click", () => {
     const squares = document.querySelectorAll(".content");
@@ -70,6 +61,8 @@ resetButton.addEventListener("click", () => {
         square.style.border = "1px solid grey"; 
     });
 });
+
+
 
 
 
